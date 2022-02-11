@@ -1,0 +1,174 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.banner {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-image: url("https://png.pngtree.com/background/20210706/original/pngtree-cool-black-geometric-lines-background-banner-picture-image_99147.jpg");
+  height: 38px;
+  border-bottom: 2px solid white;
+}
+
+.title {
+  width: 50%;
+}
+
+.title h1 {
+  width: fit-content;
+  border: 2px white solid;
+  padding: 5px 15px;
+  border-radius: 20px;
+  color: white;
+}
+
+.navigation {
+  width: 30%;
+  margin-right: 20px;
+}
+
+.navigation li {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 19px;
+  color: white;
+  height: 25px;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+
+ul:hover {
+  margin-top: 5px;
+}
+
+main {
+  position: relative;
+  top: 60px;
+  z-index: -1;
+}
+
+.portfolio__intro {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: flex-start;
+  border-bottom: 2px solid white;
+  background: linear-gradient(23deg, black, transparent);
+}
+
+.portfolio__intro--image {
+  width: fit-content;
+  margin: 90px 0px;
+}
+
+.portfolio__intro--image img {
+  width: 440px;
+  height: 240px;
+}
+
+.portfolio__intro--details {
+  width: 26%;
+  margin: 26px;
+  margin-right: 70px;
+  font-style: oblique;
+  font-size: 1.2em;
+  color: #5f0d0d;
+}
+
+.portfolio__skills {
+  border-bottom: 2px solid white;
+  background: linear-gradient(315deg, black, transparent);
+}
+
+.portfolio__skills--title {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 25px;
+  color: white;
+}
+
+.portfolio__skills--images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.portfolio__skills--images img {
+  width: 150px;
+  height: 150px;
+  margin: 50px 120px;
+}
+
+.portfolio__works {
+  display: flex;
+  width: 100%;
+  margin-bottom: 100px;
+  font-size: 1.5em;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 2px solid black;
+  background: linear-gradient(23deg, black, transparent);
+}
+
+.portfolio__works h2 {
+  margin: 43px 0px;
+  color: white;
+}
+
+.portfolio__works img {
+  width: 300px;
+  margin-left: 40px;
+}
+
+.portfolio__contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 25px;
+}
+
+.portfolio__contacts--title {
+  margin-bottom: 30px;
+}
+
+.portfolio__contacts--details {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.portfolio__contacts--details li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-evenly;
+  font-size: 21px;
+  margin: 20px 0px;
+  height: 35px;
+}
+
+.portfolio__contacts--details li ul {
+  margin: 0px -100px;
+  display: flex;
+  align-items: center;
+}
+
+.portfolio__contacts--details li ul img {
+  width: 23px;
+  margin-right: 10px;
+}
+
+.portfolio__contacts--details li ul:hover {
+  margin-top: 5px;
+}
